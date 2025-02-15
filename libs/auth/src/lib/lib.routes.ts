@@ -3,7 +3,7 @@ import { Route } from '@angular/router';
 export const authRoutes: Route[] = [
   {
     path:'sign-in',
-    loadComponent:() => import('@libs/auth/sign-in').then((M) => M.SignInComponent),
+    loadComponent:() => import('./sign-in/sign-in-component.component').then((M) => M.SignInComponentComponent),
   },
   {
     path:'**',
