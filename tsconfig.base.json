@@ -9,7 +9,8 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "auth": ["libs/auth/src/index.ts"]
+      "auth": ["libs/auth/src/index.ts"],
+      "sign-in": ["libs/auth/sign-in/src/index.ts"]
     }
   }
 }

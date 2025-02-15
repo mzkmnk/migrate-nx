@@ -7,6 +7,7 @@
     "build": "nx build",
     "watch": "nx build --watch --configuration development",
     "test": "nx test",
+    "nx:create:library": "nx g @nx/angular:library",
     "nx:create:routing": "nx g @nx/angular:library --routing --lazy",
     "nx:rm": "nx g rm"
   },
