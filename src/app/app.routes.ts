@@ -8,5 +8,9 @@ export const routes: Routes =[
   {
     path:'internal',
     loadChildren:() => import('internal').then(M => M.internalRoutes),
+  },
+  {
+    path:'**',
+    redirectTo: 'auth',
   }
 ];
