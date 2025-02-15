@@ -11,8 +11,7 @@
     "paths": {
       "@libs/internal/dashboard": ["libs/internal/dashboard/src/index.ts"],
       "auth": ["libs/auth/src/index.ts"],
-      "internal": ["libs/internal/src/index.ts"],
-      "sign-in": ["libs/auth/sign-in/src/index.ts"]
+      "internal": ["libs/internal/src/index.ts"]
     }
   }
 }
