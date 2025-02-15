@@ -1,0 +1,21 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "ES2022",
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@libs/auth/sign-in": ["libs/auth/sign-in/src/index.ts"],
+      "auth": ["libs/auth/src/index.ts"],
+      "internal": ["libs/internal/src/index.ts"],
+      "libs/internal/src/lib/dashboard": [
+        "libs/internal/src/lib/dashboard/src/index.ts"
+      ],
+      "new-auth": ["libs/new-auth/src/index.ts"]
+    }
+  }
+}
