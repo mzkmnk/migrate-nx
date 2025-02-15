@@ -14,7 +14,8 @@
       "internal": ["libs/internal/src/index.ts"],
       "libs/internal/src/lib/dashboard": [
         "libs/internal/src/lib/dashboard/src/index.ts"
-      ]
+      ],
+      "new-auth": ["libs/new-auth/src/index.ts"]
     }
   }
 }
